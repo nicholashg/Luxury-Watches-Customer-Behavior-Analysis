@@ -1,0 +1,45 @@
+1 . NoSQL itu seperti lemari yang bisa ditata tanpa aturan kaku seperti lemari pakaian pada umumnya. 
+Bayangkan lemari yang bisa menampung baju, sepatu, dan barang-barang lain tanpa harus memiliki rak tertentu.
+NoSQL memungkinkan penyimpanan data dengan cara yang lebih bebas dan dinamis dibandingkan dengan lemari pakaian 
+konvensional yang membutuhkan rak-rak terstruktur.
+
+Sehari-hari, ketika kita berbicara tentang NoSQL, kita berbicara tentang cara menyimpan dan mengakses data tanpa harus mengikuti aturan tabel seperti 
+yang kita kenal dalam lemari pakaian konvensional (relational databases). 
+Jadi, NoSQL memberikan fleksibilitas lebih dalam cara kita menyimpan dan mengatur data, 
+mirip dengan cara kita mengatur barang-barang di dalam lemari yang tidak memiliki banyak pembatas baku.
+
+
+
+2. NoSQL:
+
+Volume Data Besar: Saat Anda memiliki kebutuhan untuk menangani jumlah data yang sangat besar dan memerlukan skema yang fleksibel.
+Model Data Beragam: Jika struktur data bervariasi atau sering berubah, NoSQL memungkinkan untuk menyimpan data dengan model yang lebih dinamis.
+Skalabilitas Horizontal: NoSQL cenderung lebih mudah untuk dikembangkan secara horizontal, memungkinkan penambahan server untuk menangani pertumbuhan data.
+
+
+RDBMS:
+
+Integritas Data dan Relasi yang Kuat: Jika integritas data dan keterkaitan antar tabel sangat penting, seperti pada aplikasi keuangan atau sistem transaksi.
+Query Kompleks: Jika aplikasi membutuhkan query yang kompleks dan sering kali melibatkan relasi antar tabel.
+Keamanan dan Transaksi ACID: RDBMS terkenal karena mendukung transaksi ACID (Atomicity, Consistency, Isolation, Durability), penting untuk 
+keandalan dan konsistensi data.
+
+
+
+3. 
+
+A. MongoDB:
+
+Keunggulan:
+- Model data berbasis dokumen yang fleksibel.
+- Skalabilitas horizontal yang baik.
+- Dukungan untuk indeks dan query yang kuat.
+
+
+
+B. Redis :
+
+Keunggulan :
+- Redis dirancang untuk memberikan kinerja baca dan tulis yang sangat cepat.
+- Redis tidak hanya menyimpan nilai kunci sederhana, tetapi juga mendukung tipe data yang kompleks seperti hashes, lists, sets, dan sorted sets.
+- Memungkinkan komunikasi asinkron antar komponen aplikasi.
